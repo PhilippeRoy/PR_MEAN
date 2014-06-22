@@ -36,6 +36,6 @@ Make sure you MongoDB is running. Instuctions can be found at http://www.mongodb
 
 Once ready, enter:
 
-`$grunt serve`
+`$ grunt serve`
 
 Watch the magic happen!
