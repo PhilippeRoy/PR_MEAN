@@ -25,16 +25,18 @@ The app allows users to input there details (name, email and password) and these
 
 The app does form field checking on the client side before submitting the POST request to the server.
 
-When running this app, it requires the use use MongoDB on default settings. Instuctions how to install Mongo can be found here.
+When running this app, it requires the use use MongoDB on default settings. Instuctions how to install Mongo can be found here. http://www.mongodb.org/
 
 ##To Get It Running
 Once the files have been download, navigate to that directory in your terminal. Double check there is a package.json files and then enter:
 
 `$ npm install`
 
-Make sure you MongoDB is running. Instuctions can be found at http://www.mongodb.org/
+Make sure you MongoDB is running. Navigate to your directory where you placed the mongo binary's enter:
 
-Once ready, enter:
+`$ mongod --dbpath /path/to/app/fullstack-dev
+
+Once your database is running, enter:
 
 `$ grunt serve`
 
