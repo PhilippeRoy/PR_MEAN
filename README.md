@@ -28,12 +28,14 @@ The app does form field checking on the client side before submitting the POST r
 When running this app, it requires the use use MongoDB on default settings. Instuctions how to install Mongo can be found here.
 
 ##To Get It Running
-Once the files have been download, navigate to that directory using terminal. Double check there is a package.json files and then enter:
+Once the files have been download, navigate to that directory in your terminal. Double check there is a package.json files and then enter:
 
 `$ npm install`
 
-Make sure you MongoDB is running.
+Make sure you MongoDB is running. Instuctions can be found at http://www.mongodb.org/
 
-Once ready, enter
+Once ready, enter:
 
-`grunt serve`
+`$grunt serve`
+
+Watch the magic happen!
