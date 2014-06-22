@@ -17,8 +17,9 @@ This App demonstrates:
 
 MongoDB - Download and Install [MongoDB](http://www.mongodb.org/) - If you plan on scaffolding your project with mongoose, you'll need mongoDB to be installed.
 
+Grunt - Task Runner - http://gruntjs.com/
 
-
+Bower - Package Manager for the Web - http://bower.io
 
 ##What It Does
 The app allows users to input there details (name, email and password) and these details are displayed in a list that is dynamically displayed on the web page with out reloading the webpage.
@@ -31,6 +32,10 @@ When running this app, it requires the use use MongoDB on default settings. Inst
 Once the files have been download, navigate to that directory in your terminal. Double check there is a package.json files and then enter:
 
 `$ npm install`
+
+&&
+
+`$ bower install`
 
 Make sure you MongoDB is running. Navigate to your directory where you placed the mongo binary's enter:
 
