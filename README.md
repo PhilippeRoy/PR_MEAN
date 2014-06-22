@@ -39,7 +39,7 @@ Once the files have been download, navigate to that directory in your terminal. 
 
 Make sure you MongoDB is running. Navigate to your directory where you placed the mongo binary's enter:
 
-`$ mongod --dbpath /path/to/app/fullstack-dev
+`$ mongod --dbpath /path/to/app/fullstack-dev`
 
 Once your database is running, enter:
 
